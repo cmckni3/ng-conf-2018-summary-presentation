@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "6"
+  - "8"
 cache: yarn
 env:
-  - BASE_HREF=/angular-authentication/
+  - BASE_HREF=/ng-conf-summary-presentation/
 script: yarn build
 deploy:
   provider: pages
