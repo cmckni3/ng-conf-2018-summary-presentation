@@ -47,8 +47,8 @@ export default class Presentation extends React.Component {
           </Heading>
           <Text padding={'1rem 0 0 0'}>
             <Link href="#/10" textColor="tertiary">
-              <i className="fa fa-external-link-alt"></i>
-              <span style={{padding: '0 0.75rem'}}>Links</span>
+              <i className="fa fa-external-link-alt" />
+              <span style={{ padding: '0 0.75rem' }}>Links</span>
             </Link>
           </Text>
         </Slide>
@@ -136,7 +136,7 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide>
-        <Heading size={6} caps>
+          <Heading size={6} caps>
             Links (continued)
           </Heading>
           <List>
@@ -186,9 +186,7 @@ export default class Presentation extends React.Component {
               </TableRow>
               <TableRow>
                 <TableItem>
-                  <Text textSize={32} padding={'1rem 0 1rem 0'}>
-                    YouTube
-                  </Text>
+                  <Text textSize={32}>YouTube</Text>
                 </TableItem>
                 <TableItem>
                   <Link textColor="tertiary" href="https://www.youtube.com/user/ngconfvideos">
