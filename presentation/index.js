@@ -47,7 +47,7 @@ export default class Presentation extends React.Component {
           </Heading>
           <Text padding={'1rem 0 0 0'}>
             <Link href="#/10" textColor="tertiary">
-              <i class="fa fa-external-link-alt"></i>
+              <i className="fa fa-external-link-alt"></i>
               <span style={{padding: '0 0.75rem'}}>Links</span>
             </Link>
           </Text>

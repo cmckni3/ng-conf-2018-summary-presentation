@@ -2,6 +2,7 @@
 
 var path = require("path");
 var webpack = require("webpack");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: "cheap-module-source-map",
@@ -13,12 +14,14 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "bundle.js",
-    publicPath: "/dist",
+    filename: "bundle.js"
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'index.html'
+    })
   ],
   module: {
     loaders: [{
