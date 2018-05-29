@@ -9,10 +9,6 @@ import {
   List,
   ListItem,
   Slide,
-  Table,
-  TableBody,
-  TableItem,
-  TableRow,
   Text,
 } from 'spectacle';
 
@@ -172,30 +168,18 @@ export default class Presentation extends React.Component {
           <Heading size={6} caps>
             Additional Resources
           </Heading>
-          <Table padding={'1rem 0 1rem 0'}>
-            <TableBody>
-              <TableRow>
-                <TableItem>
-                  <Text textSize={32}>ConfSnap</Text>
-                </TableItem>
-                <TableItem>
-                  <Link textColor="tertiary" href="http://confsnap.com/event/ng-conf-18">
-                    bit.ly/2LDpL6j
-                  </Link>
-                </TableItem>
-              </TableRow>
-              <TableRow>
-                <TableItem>
-                  <Text textSize={32}>YouTube</Text>
-                </TableItem>
-                <TableItem>
-                  <Link textColor="tertiary" href="https://www.youtube.com/user/ngconfvideos">
-                    bit.ly/2IQoGKt
-                  </Link>
-                </TableItem>
-              </TableRow>
-            </TableBody>
-          </Table>
+          <Text textSize={32} margin="1rem 0 1rem 0">
+            ConfSnap
+            <Link padding="0 0 0 0.5rem" textColor="tertiary" href="http://confsnap.com/event/ng-conf-18">
+              bit.ly/2LDpL6j
+            </Link>
+          </Text>
+          <Text textSize={32} margin="0 0.5rem 1rem 0">
+            <span>YouTube</span>
+            <Link padding="0 0 0 0.5rem" textColor="tertiary" href="https://www.youtube.com/user/ngconfvideos">
+              bit.ly/2IQoGKt
+          </Link>
+          </Text>
         </Slide>
       </Deck>
     );
