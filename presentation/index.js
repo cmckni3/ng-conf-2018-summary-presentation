@@ -45,6 +45,12 @@ export default class Presentation extends React.Component {
           <Heading size={1} fit caps lineHeight={1} textColor="tertiary">
             ng-conf Summary
           </Heading>
+          <Text padding={'1rem 0 0 0'}>
+            <Link href="#/10" textColor="tertiary">
+              <i class="fa fa-external-link-alt"></i>
+              <span style={{padding: '0 0.75rem'}}>Links</span>
+            </Link>
+          </Text>
         </Slide>
         <Slide transition={['fade']}>
           <Heading size={6} caps>
