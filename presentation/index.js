@@ -168,12 +168,6 @@ export default class Presentation extends React.Component {
           <Heading size={6} caps>
             Additional Resources
           </Heading>
-          <Text textSize={32} margin="1rem 0 1rem 0">
-            ConfSnap
-            <Link padding="0 0 0 0.5rem" textColor="tertiary" href="http://confsnap.com/event/ng-conf-18">
-              bit.ly/2LDpL6j
-            </Link>
-          </Text>
           <Text textSize={32} margin="0 0.5rem 1rem 0">
             <span>YouTube</span>
             <Link padding="0 0 0 0.5rem" textColor="tertiary" href="https://www.youtube.com/user/ngconfvideos">
