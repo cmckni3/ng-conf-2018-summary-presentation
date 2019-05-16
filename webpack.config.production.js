@@ -18,7 +18,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/dist/"
+    publicPath: BASE_HREF,
   },
 
   plugins: [
@@ -29,7 +29,6 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'index.html',
-      baseUrl: BASE_HREF
     })
   ],
 
