@@ -1,4 +1,4 @@
-[![Maintenance Status][maintenance-image]](#maintenance-status)
+[![Maintenance Status](https://img.shields.io/badge/maintenance-unmaintained-red.svg)](#maintenance-status)
 
 # Spectacle Boilerplate
 
