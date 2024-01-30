@@ -1,6 +1,6 @@
-[![Maintenance Status](https://img.shields.io/badge/maintenance-unmaintained-red.svg)](#maintenance-status)
+# Angular Conf 2018 Summary Presentation
 
-# Spectacle Boilerplate
+[![Maintenance Status](https://img.shields.io/badge/maintenance-unmaintained-red.svg)](#maintenance-status)
 
 ## Contents
 

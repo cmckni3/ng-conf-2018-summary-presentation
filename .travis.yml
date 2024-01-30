@@ -3,7 +3,7 @@ node_js:
   - "8"
 cache: yarn
 env:
-  - BASE_HREF=/ng-conf-summary-presentation/
+  - BASE_HREF=/ng-conf-2018-summary-presentation/
 script: yarn build
 deploy:
   provider: pages
